@@ -116,6 +116,10 @@ controls{
       keyboardKey:i=10
     }
 
+    ID_DESIGNATE_TARGET{
+      mouseButton:i=2
+    }
+
     ID_FIRE_ADDITIONAL_GUNS{
       mouseButton:i=0
     }
