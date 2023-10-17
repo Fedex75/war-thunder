@@ -14,9 +14,8 @@ controls{
       keyboardKey:i=33
     }
 
-    ID_AGM{}
     ID_AGM{
-      keyboardKey:i=57
+      mouseButton:i=3
     }
 
     ID_AGM_LOCK{
@@ -40,9 +39,8 @@ controls{
       keyboardKey:i=48
     }
 
-    ID_BOMBS{}
     ID_BOMBS{
-      keyboardKey:i=57
+      mouseButton:i=3
     }
 
     ID_BOMBS_HELICOPTER{
@@ -154,11 +152,19 @@ controls{
       mouseButton:i=0
     }
 
+    ID_FIRE_SECONDARY{
+      mouseButton:i=3
+    }
+
     ID_FLIGHTMENU{
       keyboardKey:i=1
     }
 
     ID_GAME_PAUSE{}
+    ID_GUIDED_BOMBS{
+      mouseButton:i=3
+    }
+
     ID_HELI_GUNNER_NIGHT_VISION{
       keyboardKey:i=45
     }
@@ -198,9 +204,8 @@ controls{
     }
 
     ID_RELOAD_GUNS{}
-    ID_ROCKETS{}
     ID_ROCKETS{
-      keyboardKey:i=46
+      mouseButton:i=3
     }
 
     ID_ROCKETS_HELICOPTER{}
@@ -289,7 +294,7 @@ controls{
     }
 
     ID_SWITCH_SHOOTING_CYCLE_SECONDARY{
-      keyboardKey:i=60
+      keyboardKey:i=58
     }
 
     ID_TANK_NIGHT_VISION{
@@ -487,7 +492,7 @@ controls{
     USEROPT_JOYFX:b=yes
     USEROPT_MOUSE_USAGE_NO_AIM:i=0
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
-    USEROPT_SINGLE_SHOT_BY_TURRET:b=no
+    USEROPT_SINGLE_SHOT_BY_TURRET:b=yes
     USEROPT_WHEEL_CONTROL_SHIP:b=no
     USEROPT_ZOOM_SENSE:i=10
     mouseJoystick:b=no
