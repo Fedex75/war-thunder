@@ -381,7 +381,10 @@ controls{
       keyboardKey:i=201
     }
 
-    ID_VOICE_MESSAGE_1{}
+    ID_VOICE_MESSAGE_1{
+      keyboardKey:i=2
+    }
+
     ID_VOICE_MESSAGE_2{
       keyboardKey:i=3
     }
