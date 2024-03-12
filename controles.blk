@@ -58,6 +58,7 @@ controls{
       keyboardKey:i=46
     }
 
+    ID_CAMERA_DEFAULT{}
     ID_CAMERA_DRIVER{
       keyboardKey:i=25
     }
@@ -72,6 +73,18 @@ controls{
       mouseButton:i=1
     }
 
+    ID_CAMERA_OPTICS{
+      keyboardKey:i=44
+    }
+
+    ID_CAMERA_SEEKER{
+      keyboardKey:i=44
+    }
+
+    ID_CAMERA_TPS{
+      keyboardKey:i=44
+    }
+
     ID_CAMERA_TPS{
       keyboardKey:i=2
     }
@@ -80,10 +93,7 @@ controls{
       keyboardKey:i=2
     }
 
-    ID_CAMERA_VIRTUAL_FPS{
-      keyboardKey:i=5
-    }
-
+    ID_CAMERA_VIRTUAL_FPS{}
     ID_CAMERA_VIRTUAL_FPS_HELICOPTER{
       keyboardKey:i=4
     }
@@ -152,6 +162,10 @@ controls{
     }
 
     ID_FLARES{}
+    ID_FLARES{
+      mouseButton:i=2
+    }
+
     ID_FLIGHTMENU{
       keyboardKey:i=1
     }
@@ -159,6 +173,10 @@ controls{
     ID_GAME_PAUSE{}
     ID_GUIDED_BOMBS{
       mouseButton:i=3
+    }
+
+    ID_GUIDED_BOMBS_LOCK{
+      mouseButton:i=4
     }
 
     ID_HELI_GUNNER_NIGHT_VISION{
@@ -191,7 +209,7 @@ controls{
     }
 
     ID_PLANE_NIGHT_VISION{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=46
     }
 
@@ -200,11 +218,17 @@ controls{
     }
 
     ID_RELOAD_GUNS{}
-    ID_ROCKETS{
+    ID_RESIZE_SECONDARY_WEAPON_SERIES{
+      keyboardKey:i=56
+      keyboardKey:i=48
+    }
+
+    ID_ROCKETS{}
+    ID_ROCKETS_HELICOPTER{}
+    ID_ROCKETS_SERIES{
       mouseButton:i=3
     }
 
-    ID_ROCKETS_HELICOPTER{}
     ID_ROCKETS_SERIES_HELICOPTER{
       mouseButton:i=3
     }
@@ -341,19 +365,11 @@ controls{
       keyboardKey:i=45
     }
 
-    ID_TOGGLE_PERIODIC_FLARES{
-      mouseButton:i=2
-    }
-
     ID_TOGGLE_PERIODIC_FLARES_HELICOPTER{
       mouseButton:i=2
     }
 
     ID_TOGGLE_VIEW{}
-    ID_TOGGLE_VIEW{
-      keyboardKey:i=44
-    }
-
     ID_TOGGLE_VIEW_HELICOPTER{}
     ID_TRANS_GEAR_DOWN{}
     ID_TRANS_GEAR_DOWN{
@@ -365,10 +381,7 @@ controls{
       keyboardKey:i=201
     }
 
-    ID_VOICE_MESSAGE_1{
-      keyboardKey:i=2
-    }
-
+    ID_VOICE_MESSAGE_1{}
     ID_VOICE_MESSAGE_2{
       keyboardKey:i=3
     }
