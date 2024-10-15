@@ -208,6 +208,7 @@ controls{
       keyboardKey:i=62
     }
 
+    ID_OPEN_VISUAL_WEAPON_SELECTOR{}
     ID_PLANE_NIGHT_VISION{
       keyboardKey:i=56
       keyboardKey:i=46
